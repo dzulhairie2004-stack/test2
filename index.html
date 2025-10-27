@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Conjuring: The Last Rites</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Internal CSS -->
+  <style>
+    body {
+      background-color: #0d0d0d;
+      color: #ffffff;
+      font-family: 'Arial', sans-serif;
+    }
+
+    .header {
+      background-color: #1a1a1a;
+      padding: 20px;
+      text-align: center;
+      animation: fadeInDown 2s;
+    }
+
+    .movie-img {
+      width: 100%;
+      max-width: 600px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+      animation: zoomIn 3s;
+    }
+
+    @keyframes zoomIn {
+      from {
+        transform: scale(0.8);
+        opacity: 0;
+      }
+      to {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+
+    @keyframes fadeInDown {
+      from {
+        transform: translateY(-50px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    .info-section {
+      margin-top: 30px;
+    }
+
+    .btn-custom {
+      background-color: #e50914;
+      color: white;
+    }
+
+    .btn-custom:hover {
+      background-color: #ff1e25;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container mt-4">
+    <div class="header">
+      <h1>The Conjuring: The Last Rites</h1>
+      <p>The Warrens face their darkest case in the final chapter of the Conjuring Universe</p>
+    </div>
+
+    <!-- Movie Poster -->
+    <div class="text-center mt-4">
+      <img src="Images/pic2.jpg" class="movie-img" alt="The Conjuring Poster">
+    </div>
+
+    <!-- Information -->
+    <div class="info-section">
+      <h3>🔍 Synopsis</h3>
+      <p>Inspired by the real-life Smurl haunting, Ed and Lorraine Warren investigate a terrifying demonic presence in a Pennsylvania home during the 1980s. As the malevolent entity threatens to destroy a family, the Warrens must confront evil like never before in their most personal and dangerous case yet.</p>
+
+      <h3>📅 Release Date</h3>
+      <p>September 5, 2025 (U.S. Release)</p>
+
+      <h3>⏰ Show Times</h3>
+      <ul>
+        <li>12:00 PM</li>
+        <li>3:00 PM</li>
+        <li>6:00 PM</li>
+        <li>9:00 PM</li>
+      </ul>
+
+      <h3>🎭 Cast</h3>
+      <ul>
+        <li>Patrick Wilson as Ed Warren</li>
+        <li>Vera Farmiga as Lorraine Warren</li>
+        <li>Mia Tomlinson as Judy Warren</li>
+        <li>Ben Hardy as Tony Spera</li>
+      </ul>
+
+      <h3>ℹ️ Additional Information</h3>
+      <p>This is the ninth and final installment of the Conjuring Universe. Directed by Michael Chaves, the film was produced by James Wan and Peter Safran. It explores the chilling Smurl case and concludes the Warrens’ cinematic legacy.</p>
+
+      <h3>💰 Box Office & Reception</h3>
+      <p>With a budget of around $55 million, the movie grossed $83 million domestically during opening weekend and over $187 million worldwide. It received mixed reviews from critics (55% on Rotten Tomatoes), but fans praised the emotional depth of the finale.</p>
+
+      <!-- Hyperlink -->
+      <a href="https://youtu.be/bMgfsdYoEEo?si=QRZ-8n3vgAyVn6ig" target="_blank" class="btn btn-trailer btn-lg">
+              ▶️ Watch the Official Trailer 
+      </a>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
